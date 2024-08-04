@@ -11,6 +11,10 @@
 		538C90D62C5F626E008E3543 /* WalkthroughMorphing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 538C90CB2C5F626E008E3543 /* WalkthroughMorphing.framework */; };
 		538C90DB2C5F626E008E3543 /* WalkthroughMorphingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 538C90DA2C5F626E008E3543 /* WalkthroughMorphingTests.swift */; };
 		538C90DC2C5F626E008E3543 /* WalkthroughMorphing.h in Headers */ = {isa = PBXBuildFile; fileRef = 538C90CE2C5F626E008E3543 /* WalkthroughMorphing.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		538C91072C5F6372008E3543 /* WalkthroughMorphingExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 538C91062C5F6372008E3543 /* WalkthroughMorphingExampleApp.swift */; };
+		538C91092C5F6372008E3543 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 538C91082C5F6372008E3543 /* ContentView.swift */; };
+		538C910B2C5F6373008E3543 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 538C910A2C5F6373008E3543 /* Assets.xcassets */; };
+		538C910F2C5F6373008E3543 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 538C910E2C5F6373008E3543 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +33,12 @@
 		538C90CF2C5F626E008E3543 /* WalkthroughMorphing.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = WalkthroughMorphing.docc; sourceTree = "<group>"; };
 		538C90D52C5F626E008E3543 /* WalkthroughMorphingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WalkthroughMorphingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		538C90DA2C5F626E008E3543 /* WalkthroughMorphingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalkthroughMorphingTests.swift; sourceTree = "<group>"; };
+		538C91042C5F6372008E3543 /* WalkthroughMorphingExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WalkthroughMorphingExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		538C91062C5F6372008E3543 /* WalkthroughMorphingExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalkthroughMorphingExampleApp.swift; sourceTree = "<group>"; };
+		538C91082C5F6372008E3543 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		538C910A2C5F6373008E3543 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		538C910C2C5F6373008E3543 /* WalkthroughMorphingExample.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WalkthroughMorphingExample.entitlements; sourceTree = "<group>"; };
+		538C910E2C5F6373008E3543 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +57,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		538C91012C5F6372008E3543 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -55,6 +72,7 @@
 			children = (
 				538C90CD2C5F626E008E3543 /* WalkthroughMorphing */,
 				538C90D92C5F626E008E3543 /* WalkthroughMorphingTests */,
+				538C91052C5F6372008E3543 /* WalkthroughMorphingExample */,
 				538C90CC2C5F626E008E3543 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -64,6 +82,7 @@
 			children = (
 				538C90CB2C5F626E008E3543 /* WalkthroughMorphing.framework */,
 				538C90D52C5F626E008E3543 /* WalkthroughMorphingTests.xctest */,
+				538C91042C5F6372008E3543 /* WalkthroughMorphingExample.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -83,6 +102,26 @@
 				538C90DA2C5F626E008E3543 /* WalkthroughMorphingTests.swift */,
 			);
 			path = WalkthroughMorphingTests;
+			sourceTree = "<group>";
+		};
+		538C91052C5F6372008E3543 /* WalkthroughMorphingExample */ = {
+			isa = PBXGroup;
+			children = (
+				538C91062C5F6372008E3543 /* WalkthroughMorphingExampleApp.swift */,
+				538C91082C5F6372008E3543 /* ContentView.swift */,
+				538C910A2C5F6373008E3543 /* Assets.xcassets */,
+				538C910C2C5F6373008E3543 /* WalkthroughMorphingExample.entitlements */,
+				538C910D2C5F6373008E3543 /* Preview Content */,
+			);
+			path = WalkthroughMorphingExample;
+			sourceTree = "<group>";
+		};
+		538C910D2C5F6373008E3543 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				538C910E2C5F6373008E3543 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,6 +174,23 @@
 			productReference = 538C90D52C5F626E008E3543 /* WalkthroughMorphingTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		538C91032C5F6372008E3543 /* WalkthroughMorphingExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 538C91102C5F6373008E3543 /* Build configuration list for PBXNativeTarget "WalkthroughMorphingExample" */;
+			buildPhases = (
+				538C91002C5F6372008E3543 /* Sources */,
+				538C91012C5F6372008E3543 /* Frameworks */,
+				538C91022C5F6372008E3543 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WalkthroughMorphingExample;
+			productName = WalkthroughMorphingExample;
+			productReference = 538C91042C5F6372008E3543 /* WalkthroughMorphingExample.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -149,6 +205,9 @@
 						CreatedOnToolsVersion = 15.4;
 					};
 					538C90D42C5F626E008E3543 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					538C91032C5F6372008E3543 = {
 						CreatedOnToolsVersion = 15.4;
 					};
 				};
@@ -168,6 +227,7 @@
 			targets = (
 				538C90CA2C5F626E008E3543 /* WalkthroughMorphing */,
 				538C90D42C5F626E008E3543 /* WalkthroughMorphingTests */,
+				538C91032C5F6372008E3543 /* WalkthroughMorphingExample */,
 			);
 		};
 /* End PBXProject section */
@@ -187,6 +247,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		538C91022C5F6372008E3543 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				538C910F2C5F6373008E3543 /* Preview Assets.xcassets in Resources */,
+				538C910B2C5F6373008E3543 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -203,6 +272,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				538C90DB2C5F626E008E3543 /* WalkthroughMorphingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		538C91002C5F6372008E3543 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				538C91092C5F6372008E3543 /* ContentView.swift in Sources */,
+				538C91072C5F6372008E3543 /* WalkthroughMorphingExampleApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -370,6 +448,7 @@
 				SDKROOT = auto;
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_INSTALL_OBJC_HEADER = NO;
 				SWIFT_VERSION = 5.0;
@@ -410,6 +489,7 @@
 				SDKROOT = auto;
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_INSTALL_OBJC_HEADER = NO;
 				SWIFT_VERSION = 5.0;
@@ -457,6 +537,78 @@
 			};
 			name = Release;
 		};
+		538C91112C5F6373008E3543 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = WalkthroughMorphingExample/WalkthroughMorphingExample.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WalkthroughMorphingExample/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.duong.wabisabi.WalkthroughMorphingExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		538C91122C5F6373008E3543 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = WalkthroughMorphingExample/WalkthroughMorphingExample.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WalkthroughMorphingExample/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.duong.wabisabi.WalkthroughMorphingExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -483,6 +635,15 @@
 			buildConfigurations = (
 				538C90E32C5F626E008E3543 /* Debug */,
 				538C90E42C5F626E008E3543 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		538C91102C5F6373008E3543 /* Build configuration list for PBXNativeTarget "WalkthroughMorphingExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				538C91112C5F6373008E3543 /* Debug */,
+				538C91122C5F6373008E3543 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
